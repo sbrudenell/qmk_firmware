@@ -19,14 +19,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "config_common.h"
 
-/* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x0C0D
-#define DEVICE_VER      0x0001
-#define MANUFACTURER    Gray Studio
-#define PRODUCT         COD67
-#define DESCRIPTION     60% custom keyboard
-
 /* key matrix size */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 14
@@ -52,6 +44,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * https://docs.qmk.fm/#/feature_backlight?id=timer-assisted-pwm-implementation
  */
 #define BACKLIGHT_PIN D4
+#define BACKLIGHT_ON_STATE 0
 
 #define RGB_DI_PIN B2
 #ifdef RGB_DI_PIN

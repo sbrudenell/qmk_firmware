@@ -2,14 +2,6 @@
 
 #include "config_common.h"
 
-/* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0xFADE
-#define DEVICE_VER      0x0001
-#define MANUFACTURER    Pixlup
-#define PRODUCT         Blackplum Keeb
-#define DESCRIPTION     Blackplum 68 Percent Mechanical Keyboard
-
 /* key matrix size */
 #define MATRIX_ROWS 9
 #define MATRIX_COLS 8
